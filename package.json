@@ -1,0 +1,20 @@
+{
+  "name": "business-application",
+  "version": "1.0.0",
+  "description": "A website using NodeJs that enables businesses to manage their daily operations more efficiently. The website offers a range of features and tools that allow businesses to streamline their processes, increase productivity, and improve communication among employees. With its user-friendly interface and customizable options, the website is a powerful solution for businesses looking to optimize their operations and achieve greater success.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelorina/business-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelorina/business-application/issues"
+  },
+  "homepage": "https://github.com/michaelorina/business-application#readme"
+}

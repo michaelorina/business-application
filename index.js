@@ -9,5 +9,5 @@ app.set('view engine', 'ejs');
 app.listen(8080);
 
 app.get('/', function(req, res){
-    res.send("Hello");
+    res.render('pages/index');
 });

@@ -3,6 +3,13 @@ var ejs = require('ejs');
 var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
+mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "node_project"
+});
+
 var app = express();
 
 app.use(express.static('public'));

@@ -27,5 +27,7 @@ app.get('/', function(req, res){
         database: "node_project"
     })
 
+    con.query("SELECT * FROM products", )
+
     res.render('pages/index');
 });

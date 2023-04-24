@@ -20,12 +20,12 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/', function(req, res){
 
-    mysql.createConnection({
+    var con = mysql.createConnection({
         host: "localhost",
         user: "root",
         password: "",
         database: "node_project"
     })
-    
+
     res.render('pages/index');
 });

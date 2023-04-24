@@ -8,7 +8,7 @@ mysql.createConnection({
     user: "root",
     password: "",
     database: "node_project"
-});
+})
 
 var app = express();
 
@@ -19,5 +19,13 @@ app.listen(8080);
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/', function(req, res){
+
+    mysql.createConnection({
+        host: "localhost",
+        user: "root",
+        password: "",
+        database: "node_project"
+    })
+    
     res.render('pages/index');
 });
